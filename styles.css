@@ -1,7 +1,6 @@
 
 body {
     background-color: #ffffff;
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
     text-align: center
 }
@@ -17,17 +16,16 @@ h1 {
     list-style:none;
     padding:0;
     text-align:center;
+    padding-bottom: 2%;
 }
+
 
 p {
     font-family: 'Open Sans', sans-serif;
     color:#a8a8a8;
-    text-align: justify;
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-  }
+    text-align: left;
+    display: inline-block;
+}
 
 ion-icon {
     font-size: 4vh;
