@@ -29,6 +29,19 @@ p {
     transform: translate(-50%, -50%);
   }
 
+ion-icon {
+    font-size: 4vh;
+    margin-right:10px;
+}
+
+.banner {
+    width: 45vh;
+    border-radius: 20px;
+    border: 2px solid #a8a8a8;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (min-width: 600px) {
 
       
@@ -81,13 +94,15 @@ span {
 .nav a{
     display:inline-block;
     padding:10px;
+        color:#a8a8a8;
+    text-decoration:none;
 }
 
-a { 
+.icons { 
     color:#a8a8a8;
     text-decoration:none;
 }
 
-a:hover, a:focus {
+.nav a:hover, a:focus {
     text-decoration:underline;
 }
