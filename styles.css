@@ -1,57 +1,72 @@
 
+body {
+    background-color: #ffffff;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center
+}
 
-@media only screen and (min-width: 600px) {
-    body {
-        background-color: #ffffff;
-        height: 100%;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center
-    }
-      
-    h1 {
-        padding-top: 2%;
-        font-size: 5vw;
-        color: #9E9E9E;
-        font-weight: 300;
-    }
-    
-    .nav{
-        list-style:none;
-        margin-top: -4%;
-        font-size: 1.2vw;
-        padding:0;
-        text-align:center;
-    }
+h1 {
+    font-size: 5vw;
+    color: #7a7a7a;
+    font-weight: 300;
+    padding-top: 1.5%;
+}
+
+.nav{
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color:#a8a8a8;
+    text-align: justify;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
   }
 
-  @media only screen and (max-width: 600px) {
-    body {
-        background-color: #ffffff;
-        height: 100%;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center
-    }
+@media only screen and (min-width: 600px) {
+
       
     h1 {
-        padding-top: 2%;
-        font-size: 10vw;
-        color: #9E9E9E;
-        font-weight: 300;
+        font-size: 5vw;
     }
     
     .nav{
-        list-style:none;
-        margin-top:-30px;
-        font-size: 4vw;
-        padding:0;
-        text-align:center;
+        margin-top: -3%;
+        font-size: 1.2vw;
     }
+
+    p {
+        width: 20vw;
+      }
+  }
+
+@media only screen and (max-width: 800px) {
+ 
+    h1 {
+        font-size: 10vw;
+    }
+    
+    .nav{
+        margin-top:-7%;
+        font-size: 4vw;
+    }
+
+    p {
+        width: 60vw;
+      }
   }
 
 span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
+
   
 @keyframes caret {
     50% {
@@ -69,7 +84,7 @@ span {
 }
 
 a { 
-    color:#c5c5c5;
+    color:#a8a8a8;
     text-decoration:none;
 }
 
